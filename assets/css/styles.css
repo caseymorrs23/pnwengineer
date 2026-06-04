@@ -234,6 +234,8 @@ textarea{min-height:120px;resize:vertical}
 .service-map-pill span{width:9px;height:9px;border-radius:999px;display:inline-block}
 .service-map-pill .wa-dot{background:#1d4ed8}
 .service-map-pill .or-dot{background:#22c55e}
+.service-map-pill .id-dot{background:#a855f7}
+.service-map-pill .nv-dot{background:#f97316}
 
 @media (max-width:640px){
   .service-map-wrapper{padding:14px}
@@ -398,6 +400,12 @@ header .logo img{
 .service-area-table th:nth-child(2){
   background:linear-gradient(135deg,#16a34a,#22c55e);
 }
+.service-area-table th:nth-child(3){
+  background:linear-gradient(135deg,#7c3aed,#a855f7);
+}
+.service-area-table th:nth-child(4){
+  background:linear-gradient(135deg,#ea580c,#f97316);
+}
 
 .service-area-bullets{
   list-style:disc;
@@ -554,3 +562,7 @@ header .logo img{
     max-width:220px;
   }
 }
+
+/* Two-column service hero layout */
+.grid-2{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:24px;align-items:center}
+@media (max-width:800px){.grid-2{grid-template-columns:1fr !important}}
