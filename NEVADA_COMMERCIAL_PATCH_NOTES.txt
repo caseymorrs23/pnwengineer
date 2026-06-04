@@ -1,0 +1,22 @@
+PNWEngineer.com Nevada + Commercial/Multifamily Patch
+Generated: 2026-06-04
+
+Key updates:
+- Added Nevada/NV coverage across global headers, footers, metadata, schema, and service-area pages.
+- Standardized license display to: WA PE #55998 • OR PE #108239PE • ID PE #428401 • NV PE #035802
+- Added Nevada city landing pages: Las Vegas, Henderson, North Las Vegas, Reno, Sparks, Carson City, and statewide Nevada.
+- Added high-intent commercial/multifamily service landing pages:
+  - commercial-electrical-engineering.html
+  - multifamily-electrical-engineering.html
+  - design-build-electrical-engineering.html
+  - tenant-improvement-electrical-engineering.html
+  - service-upgrade-electrical-engineering.html
+  - generator-emergency-power-engineering.html
+- Rebuilt services.html, projects.html, service-areas.html, and homepage service cards for larger commercial and multifamily work.
+- Preserved GTM GTM-5DQRPTPG, Bing/UET 187233611, and the existing Google Apps Script form endpoint.
+- Regenerated sitemap.xml with lastmod dates and the new commercial/Nevada pages.
+
+Before publishing:
+- Verify all PE license numbers, especially ID #428401 and NV #035802, against your board records.
+- Submit one test lead after deployment and confirm the Apps Script destination still receives the form.
+- Submit sitemap.xml in Google Search Console and Bing Webmaster Tools after deployment.

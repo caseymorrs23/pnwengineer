@@ -10,9 +10,19 @@
       "contactType": "customer service",
       "telephone": "+1-443-742-7054",
       "email": "casey-morris@live.com",
-      "areaServed": "US-WA"
+      "areaServed": [
+        "US-WA",
+        "US-OR",
+        "US-ID",
+        "US-NV"
+      ]
     }
   ],
   "founder": "Casey Morris, P.E.",
-  "identifier": "WA PE #55998"
+  "identifier": [
+    "WA PE #55998",
+    "OR PE #108239PE",
+    "ID PE #428401",
+    "NV PE #035802"
+  ]
 }

@@ -1,0 +1,40 @@
+PNWEngineer.com Nevada + Commercial/Multifamily Patch QA
+Date: 2026-06-04
+
+QA completed:
+- 136 HTML files checked.
+- 133 URLs included in regenerated sitemap.xml.
+- Nevada/NV PE license display found across all HTML pages.
+- No occurrences of old ID license typo 4281401 found.
+- No old GitHub canonical/domain references found.
+- No broken local links, image references, CSS references, or JS references found.
+- One <body> and one <h1> confirmed on every HTML page.
+- Meta title and meta description confirmed on every HTML page.
+- JSON-LD structured data validates as parseable JSON.
+- GTM ID GTM-5DQRPTPG present on all user-facing pages.
+- Bing/UET ID 187233611 present on all user-facing pages.
+- Existing Google Apps Script form endpoint preserved.
+- Existing form fields preserved on lead forms: name, email, phone, city, project, redirect.
+- Non-index helper/thank-you pages marked noindex where applicable.
+
+New high-intent commercial pages:
+- commercial-electrical-engineering.html
+- multifamily-electrical-engineering.html
+- design-build-electrical-engineering.html
+- tenant-improvement-electrical-engineering.html
+- service-upgrade-electrical-engineering.html
+- generator-emergency-power-engineering.html
+
+New Nevada area pages:
+- areas/nevada.html
+- areas/las-vegas.html
+- areas/henderson.html
+- areas/north-las-vegas.html
+- areas/reno.html
+- areas/sparks.html
+- areas/carson-city.html
+
+Important verification before publishing:
+- Confirm PE license numbers: WA #55998, OR #108239PE, ID #428401, NV #035802.
+- Submit one live test form after deployment and confirm the lead reaches the same Apps Script destination.
+- Use GTM Preview/Tag Assistant to verify the lead event/conversion fires exactly once.

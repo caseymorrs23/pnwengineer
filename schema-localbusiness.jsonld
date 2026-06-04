@@ -2,24 +2,80 @@
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "PNW Electrical Engineering, PLLC",
-  "url": "https://pnwengineer.com/",
+  "description": "Washington, Oregon, Idaho, and Nevada PE electrical engineering for commercial, multifamily, EV charging, service upgrades, generators, and permit-ready electrical submittals.",
   "telephone": "+1-443-742-7054",
-  "email": "casey-morris@live.com",
-  "image": "https://pnwengineer.com/images/logo-stamp.png",
+  "email": "Casey-Morris@live.com",
+  "url": "https://pnwengineer.com/",
+  "image": "https://pnwengineer.com/images/logo-stamp.webp",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "10102 199th Ave E",
+    "addressLocality": "Bonney Lake",
+    "addressRegion": "WA",
+    "postalCode": "98391",
+    "addressCountry": "US"
+  },
   "areaServed": [
     {
       "@type": "AdministrativeArea",
       "name": "Washington"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Oregon"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Idaho"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Nevada"
     }
   ],
-  "priceRange": "$$",
-  "knowsAbout": [
-    "EV charging engineering",
-    "Transformer adequacy",
-    "Solar interconnection",
-    "Electrical load calculations",
-    "PE stamping"
-  ],
   "founder": "Casey Morris, P.E.",
-  "identifier": "WA PE #55998"
+  "knowsAbout": [
+    "commercial electrical engineering",
+    "multifamily electrical design",
+    "design-build electrical engineering",
+    "EV charging engineering",
+    "generator and emergency power design",
+    "service upgrade engineering",
+    "transformer adequacy",
+    "solar interconnection",
+    "one-line diagrams",
+    "load calculations",
+    "panel schedules",
+    "PE-stamped electrical plans"
+  ],
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "name": "WA PE License",
+      "value": "55998"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "OR PE License",
+      "value": "108239PE"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "ID PE License",
+      "value": "428401"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "NV PE License",
+      "value": "035802"
+    }
+  ],
+  "sameAs": [
+    "https://g.page/r/CeMPL1WLtVF0EBM/review",
+    "https://www.facebook.com/PNWElectricalEngineering",
+    "https://www.instagram.com/pnwelectricalengineering/",
+    "https://www.linkedin.com/company/pnw-electrical-engineering-pllc/",
+    "https://www.bing.com/forbusiness/singleEntity?bizid=fcda9785-ac2f-4896-972a-532495a39976"
+  ],
+  "priceRange": "$$"
 }
