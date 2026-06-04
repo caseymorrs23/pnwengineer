@@ -566,3 +566,7 @@ header .logo img{
 /* Two-column service hero layout */
 .grid-2{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:24px;align-items:center}
 @media (max-width:800px){.grid-2{grid-template-columns:1fr !important}}
+
+/* Optimized service imagery */
+.card .thumb picture{position:absolute;inset:0;display:block;width:100%;height:100%}
+.card .thumb picture img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
