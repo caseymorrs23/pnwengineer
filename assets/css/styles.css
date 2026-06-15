@@ -236,6 +236,7 @@ textarea{min-height:120px;resize:vertical}
 .service-map-pill .or-dot{background:#22c55e}
 .service-map-pill .id-dot{background:#a855f7}
 .service-map-pill .nv-dot{background:#f97316}
+.service-map-pill .az-dot{background:#ef4444}
 
 @media (max-width:640px){
   .service-map-wrapper{padding:14px}
