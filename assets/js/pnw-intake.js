@@ -11,6 +11,32 @@ if(page.endsWith("/thanks.html")){
   try{sessionStorage.removeItem(key)}catch(_){}
   window.dataLayer=window.dataLayer||[];
   window.dataLayer.push({event:"pnw_lead_form_confirmation",form_name:"quote_request",lead_status:"saved"});
+  // GA4 lead conversion. This only runs after a matching saved-lead
+  // acknowledgement and the one-time token is removed from sessionStorage.
+  // No customer name, email, phone, address or project scope is transmitted.
+  const measurementId="G-BQ4ZLEC4W5";
+  if(!window.__pnwVerifiedGa4LeadSent){
+   window.__pnwVerifiedGa4LeadSent=true;
+   window.dataLayer=window.dataLayer||[];
+   window.gtag=window.gtag||function(){window.dataLayer.push(arguments);};
+   // The site already has GTM. Load the public Google tag library here so this
+   // event is delivered even if GTM lacks a GA4 event trigger. Avoid a second
+   // page_view on the confirmation page.
+   if(!document.querySelector('script[data-pnw-ga4-lead]')){
+    const tag=document.createElement("script");
+    tag.src="https://www.googletagmanager.com/gtag/js?id="+encodeURIComponent(measurementId);
+    tag.async=true;
+    tag.setAttribute("data-pnw-ga4-lead","1");
+    document.head.appendChild(tag);
+   }
+   window.gtag("js",new Date());
+   window.gtag("config",measurementId,{send_page_view:false});
+   window.gtag("event","generate_lead",{
+    send_to:measurementId,
+    form_name:"pnw_quote_request",
+    lead_source:"website"
+   });
+  }
  }
  return;
 }
