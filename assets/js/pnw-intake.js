@@ -15,7 +15,7 @@ if(page.endsWith("/thanks.html")){
  return;
 }
 const form=document.getElementById("quote-form");
-if(!form||!test)return; // Existing PNW forms stay live on the original endpoint.
+if(!form)return; // Verified saved-lead confirmation is now the regular PNW flow.
 const frame=document.createElement("iframe");
 frame.name="pnw-verified-lead-frame";
 frame.setAttribute("aria-hidden","true");
@@ -25,7 +25,7 @@ document.body.appendChild(frame);
 let token="",acknowledged=false;
 let msg=document.createElement("p");
 msg.setAttribute("role","status");msg.setAttribute("aria-live","polite");
-msg.textContent="Verified PNW intake test: this submission creates a real row in the shared Google Sheet.";
+msg.textContent=test?"Test mode: this request will create a real row in the shared Google Sheet.":"";
 form.appendChild(msg);
 window.addEventListener("message",ev=>{
  const data=ev.data;
