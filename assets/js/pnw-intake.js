@@ -51,7 +51,7 @@ form.addEventListener("submit",ev=>{
   if(!field){field=document.createElement("input");field.type="hidden";field.name=name;form.appendChild(field);}
   field.value=params.get(name)||"";
  }
- form.action="https://script.google.com/macros/s/AKfycbyzoTmhY30MNzPnFrC6DuP9GEuZZdUHW3nsk6rYPwORkaq8-mszZd9s9yS-yVhkkDRQlw/exec";
+ form.action="https://script.google.com/macros/s/AKfycbwi87wMohuWu9zdJ5lzmerR5r_1GL0HhHto0Kh5WIRgtdLTvWkh4oXPVyKLzXEaVRshkA/exec";
  form.target=frame.name;
  const button=form.querySelector('[type="submit"]');
  if(button){button.disabled=true;button.textContent="Submitting…"}
