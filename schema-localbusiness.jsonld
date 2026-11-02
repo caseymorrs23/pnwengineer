@@ -2,7 +2,7 @@
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "PNW Electrical Engineering, PLLC",
-  "description": "Washington, Oregon, Idaho, and Nevada PE electrical engineering for commercial, multifamily, EV charging, service upgrades, generators, and permit-ready electrical submittals.",
+  "description": "Commercial and multifamily electrical engineering; Casey Morris, P.E., holds individual professional engineer licenses in Washington, Oregon, Idaho, Nevada, Arizona, Wyoming, Montana, Utah, Texas, and Colorado.",
   "telephone": "+1-443-742-7054",
   "email": "casey@pnwengineer.com",
   "url": "https://pnwengineer.com/",
@@ -31,6 +31,30 @@
     {
       "@type": "AdministrativeArea",
       "name": "Nevada"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Arizona"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Wyoming"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Montana"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Utah"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Texas"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Colorado"
     }
   ],
   "founder": "Casey Morris, P.E.",
@@ -68,6 +92,36 @@
       "@type": "PropertyValue",
       "name": "NV PE License",
       "value": "035802"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "AZ PE License",
+      "value": "87105"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "WY PE License",
+      "value": "22329"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "MT PE License",
+      "value": "121246"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "UT PE License",
+      "value": "14317497-2202"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "TX PE License",
+      "value": "163128"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "CO PE License",
+      "value": "PE.0069669"
     }
   ],
   "sameAs": [

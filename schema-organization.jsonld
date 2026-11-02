@@ -14,15 +14,27 @@
         "US-WA",
         "US-OR",
         "US-ID",
-        "US-NV"
+        "US-NV",
+        "US-AZ",
+        "US-WY",
+        "US-MT",
+        "US-UT",
+        "US-TX",
+        "US-CO"
       ]
     }
   ],
   "founder": "Casey Morris, P.E.",
   "identifier": [
-    "WA PE #55998",
-    "OR PE #108239PE",
-    "ID PE #428401",
-    "NV PE #035802"
+    "WA PE 55998",
+    "OR PE 108239PE",
+    "ID PE 428401",
+    "NV PE 035802",
+    "AZ PE 87105",
+    "WY PE 22329",
+    "MT PE 121246",
+    "UT PE 14317497-2202",
+    "TX PE 163128",
+    "CO PE PE.0069669"
   ]
 }
